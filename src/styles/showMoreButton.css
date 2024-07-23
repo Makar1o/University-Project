@@ -1,0 +1,25 @@
+.show-more {
+    background-color: var(--color-transparent);
+    border: 2px solid var(--color-brand-dark);
+    border-radius: 30px;
+    padding: 18.5px 40px;
+    margin-top: 55px;
+    color: var(--color-brand-dark);
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 5px solid var(--color-brand-dark);
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.sponsors {
+    width: 1440px;
+    height: 138px;
+    background-color: var(--color-brand-light);
+}
+
+.container-news {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}

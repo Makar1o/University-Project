@@ -1,0 +1,25 @@
+.degree-container {
+    display: flex;
+    width: 1440px;
+    flex-direction: column
+}
+
+
+.degree-button {
+    width: 601px;
+    height: 143px;
+    background-color: var(--color-brand-light);
+    border: 0;
+    margin: 12px;
+    border-radius: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    color: var(--color-white);
+    font-weight: 600;
+
+}
+
+.degreee-button-container {
+    display: flex;
+    justify-content: center;
+}

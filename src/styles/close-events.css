@@ -1,0 +1,46 @@
+.close-events {
+    margin-top: 62px;
+    width: 1224px;
+    height: 602px;
+}
+
+.event-cards {
+    width: 1224px;
+    margin-top: 77px;
+    margin-left: 109px;
+}
+
+.event-cards-containar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+}
+
+.arrow-right-event {
+    margin-left: 65px;
+}
+
+.passive-circle,
+.active-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.passive-circle {
+    background-color: var(--color-brand-gray-blue);
+}
+
+.active-circle {
+    background-color: var(--color-brand-secondary);
+}
+
+.circle-container {
+    width: 1224px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}

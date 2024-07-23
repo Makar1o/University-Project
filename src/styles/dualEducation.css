@@ -1,0 +1,38 @@
+.special-possibilities {
+    position: relative;
+    height: 1120px;
+    width: 1363px;
+}
+
+
+.topic-nav {
+    margin-left: 112px;
+    margin-top: 33px;
+}
+
+.special-possibilities-photo {
+    background-image: url('../images/dual-education.png');
+    background-size: cover;
+    background-position: center;
+    width: 1363px;
+    height: 1021px;
+    z-index: 0;
+    transform: translate(24px, -88px);
+}
+
+.dual-education-text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    width: 400px;
+    height: 330px;
+    line-height: 150%;
+    transform: translate(120px, 350px);
+    color: var(--color-brand-dark);
+}
+
+.dual-education-button {
+    position: absolute;
+    transform: translate(250px, 350px);
+
+}

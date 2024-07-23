@@ -1,0 +1,141 @@
+.footer-container {
+    width: 1440px;
+    display: flex;
+    margin-top: 150px;
+}
+
+.footer-image {
+    width: 1440px;
+    height: 734px;
+    background-image: url(../images/footer.png);
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-date {
+    display: flex;
+    height: 639px;
+    margin-bottom: 0px;
+}
+
+.footer-logo {
+    font-family: "Montserrat", sans-serif;
+    height: 68px;
+    width: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-size: 24px;
+    color: var(--color-brand-dark);
+    background-color: var(--color-white);
+    padding: 20px 16px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.footer-map {
+    width: 648px;
+    height: 374px;
+    margin-top: 97px;
+}
+
+.footer-contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 86px;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 36px;
+}
+
+.footer-contact {
+    display: flex;
+    align-items: center;
+    gap: 118px;
+    margin-top: 80px;
+}
+
+.footer-num {
+    color: var(--color-white);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    gap: 1px;
+}
+
+.footer-line {
+    border-color: var(--color-white);
+    width: 1259px;
+    margin-bottom: 32px;
+}
+
+.foot-data {
+    display: flex;
+    gap: 24px;
+}
+
+.footer-datas {
+    display: flex;
+    gap: 217px;
+    flex-direction: start;
+    color: var(--color-white);
+
+}
+
+.reserver2024 {
+    margin-left: 69px;
+    color: var(--color-white);
+}
+
+.footer-logo-section,
+.footer-reviews-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer-logo-section {
+    margin: 126px 74px;
+}
+
+.footer-reviews-section {
+    margin: 292px 105px;
+}
+
+.footer-entrant {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: var(--color-white);
+    line-height: 150%;
+
+}
+
+.footer-tostudent {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    line-height: 150%;
+    width: 100px;
+    color: var(--color-white);
+}
+
+.footer-main-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    line-height: 150%;
+}
+
+.footer-toteachers {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    line-height: 150%;
+    width: 157px;
+    color: var(--color-white);
+}

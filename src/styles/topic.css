@@ -1,0 +1,15 @@
+.degree-topic {
+    display: flex;
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--color-brand-dark);
+    margin-bottom: 16px;
+    margin-left: 105px;
+
+}
+
+hr {
+    margin: 0 0 36px 105px;
+    border-color: var(--color-brand-dark);
+    width: 1224px;
+}

@@ -1,0 +1,26 @@
+.image-wave {
+    background-image: url('../images/wave-stats.png');
+    background-repeat: no-repeat;
+    width: 1451;
+    height: 370px;
+}
+
+.data-stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-top: 160px;
+}
+
+.data-wave {
+    display: flex;
+    justify-content: space-around;
+    color: var(--color-brand-dark);
+    font-weight: 500;
+}
+
+.wave-stats {
+    font-size: 48px;
+    font-weight: 700;
+}

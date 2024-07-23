@@ -1,0 +1,41 @@
+.card-news-container {
+    width: 392px;
+    padding: 0;
+    margin: 0;
+}
+
+.card-news {
+    width: 392px;
+    height: 228px;
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.news-image {
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    position: absolute;
+}
+
+.form-news-image {
+    background-image: url("../images/form-of-news.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 101px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.news-content {
+    display: flex;
+    justify-content: center;
+    padding: 46px 20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--color-white);
+}

@@ -1,0 +1,22 @@
+.home-page-news-container {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.news-boxes {
+    width: 1224px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 48px 24px;
+}
+
+.news-box {
+    width: 395px;
+    height: 228px;
+    border-radius: 30px;
+}
+
+.container-news {
+    padding-bottom: 70px;
+}
