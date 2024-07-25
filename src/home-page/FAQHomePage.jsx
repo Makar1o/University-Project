@@ -1,4 +1,4 @@
-import FAQ from "./FAQForms";
+import FAQ from "../components/FAQForms";
 import React, { useState } from "react";
 
 function FAQHomePage() {

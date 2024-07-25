@@ -1,5 +1,5 @@
 import React from "react";
-import EventNav from "./EventNav";
+import EventNav from "../components/EventNav";
 function MainPhoto() {
   return (
     <section className="home-page-main">

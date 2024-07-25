@@ -1,8 +1,8 @@
 import React from "react";
-import { ReactComponent as Inst } from "../images/inst.svg";
-import { ReactComponent as Facebook } from "../images/facebook.svg";
-import { ReactComponent as Youtube } from "../images/youtube.svg";
-import Map from "../images/footer-map.png";
+import { ReactComponent as Inst } from "../images/svgIcons/inst.svg";
+import { ReactComponent as Facebook } from "../images/svgIcons/facebook.svg";
+import { ReactComponent as Youtube } from "../images/svgIcons/youtube.svg";
+import Map from "../images/home-page/footer-map.png";
 
 function Footer() {
   const handleLogoClick = () => {

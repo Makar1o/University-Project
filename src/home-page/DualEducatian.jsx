@@ -1,7 +1,7 @@
 import React from "react";
-import Topic from "./TopicSection";
-import EventNav from "./EventNav";
-import ShowMoreButton from "./ShowMoreButton";
+import Topic from "../components/TopicSection";
+import EventNav from "../components/EventNav";
+import ShowMoreButton from "../components/ShowMoreButton";
 function DualEducation() {
   return (
     <section className="special-possibilities">

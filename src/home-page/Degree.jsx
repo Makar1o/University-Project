@@ -1,5 +1,5 @@
 import React from "react";
-import Topic from "./TopicSection";
+import Topic from "../components/TopicSection";
 function Degree() {
   return (
     <section className="degree-container">

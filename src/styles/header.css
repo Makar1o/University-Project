@@ -5,7 +5,7 @@
 }
 
 .Image-background {
-    background-image: url('../images/header.jpg');
+    background-image: url('../images/home-page/header.jpg');
     display: flex;
     justify-content: center;
     height: 367px;
@@ -139,13 +139,11 @@ h3 {
     margin-top: 5px;
 }
 
-.header-serchIcon:hover {
-    border-color: var(--color-brand-dark);
-}
 
 .header-tools {
     margin-top: 2px;
 }
+
 
 .header-enter,
 .header-tostudent,

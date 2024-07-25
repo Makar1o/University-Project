@@ -19,7 +19,7 @@
     left: 10px;
     width: 177px;
     height: 126px;
-    background-image: url("../images/event-date.png");
+    background-image: url("../images/home-page/event-date.png");
     background-size: cover;
     z-index: 10;
     display: flex;
@@ -40,7 +40,7 @@
 .form-event-image {
     width: 392px;
     height: 51px;
-    background-image: url("../images/form-event-image.png");
+    background-image: url("../images/home-page/form-event-image.png");
     background-size: cover;
     transform: translate(0, -50px);
 }
