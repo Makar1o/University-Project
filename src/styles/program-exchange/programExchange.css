@@ -11,7 +11,7 @@
 }
 
 .special-possibilities-photo {
-    background-image: url('../images/home-page/dual-education.png');
+    background-image: url('../../images/home-page/dual-education.png');
     background-size: cover;
     background-position: center;
     width: 1363px;
@@ -34,5 +34,6 @@
 .dual-education-button {
     position: absolute;
     transform: translate(250px, 350px);
+    margin-top: 55px;
 
 }

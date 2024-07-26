@@ -5,7 +5,7 @@ function MainPhoto() {
     <section className="home-page-main">
       <div className="home-page-photo-1">
         <div className="day-student">
-          <EventNav title={"День студента"} />
+          <EventNav className="content-day-student" title={"День студента"} />
         </div>
       </div>
     </section>

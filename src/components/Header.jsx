@@ -4,13 +4,13 @@ import { ReactComponent as MoonDarkTheme } from "../images/svgIcons/moon-dark-th
 import { ReactComponent as PersonalCabinet } from "../images/svgIcons/personal-cabinet.svg";
 import { ReactComponent as Tools } from "../images/svgIcons/tools.svg";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+
 // semantic tags/ main/header/nav
 // react-router
 function Header() {
-  const handleLogoClick = () => {
-    window.location.reload();
-    window.scrollTo(0, 0);
-  };
+  const navigate = useNavigate();
+
   const [language, setLanguage] = useState("EN");
 
   const handleChangeLanguage = () => {
@@ -29,7 +29,7 @@ function Header() {
   return (
     <header className="Image-background">
       <div className="header-menu">
-        <div onClick={handleLogoClick} className="header-logo">
+        <div className="header-logo" onClick={() => navigate("/")}>
           LOGO
         </div>
         <nav className="header-pages">
@@ -96,7 +96,12 @@ function Header() {
           <button className="change-language" onClick={handleChangeLanguage}>
             {language}
           </button>
-          <button className="button-loggin">Увійти</button>
+          <button
+            className="button-loggin"
+            onClick={() => navigate("/Authorization")}
+          >
+            Увійти
+          </button>
           <PersonalCabinet
             className="header-personal-cabinet"
             width="34"

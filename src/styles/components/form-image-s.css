@@ -1,0 +1,23 @@
+.form-s-container {
+    width: 1397.67px;
+    height: 510px;
+    position: relative;
+}
+
+.form-s-image {
+    width: 1417px;
+    height: 741px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1397.67px;
+    height: 741px;
+    z-index: 0;
+    transform: translate(20px, -240px);
+}
+
+.form-s-content {
+    position: absolute;
+    left: 100px;
+    bottom: 100px;
+}

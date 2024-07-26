@@ -5,7 +5,7 @@
 }
 
 .Image-background {
-    background-image: url('../images/home-page/header.jpg');
+    background-image: url('../../images/home-page/header.jpg');
     display: flex;
     justify-content: center;
     height: 367px;

@@ -1,12 +1,12 @@
 .video-image {
-    background-image: url("../images/home-page/video-image.jpg");
+    background-image: url("../../images/home-page/video-image.jpg");
     height: 647px;
     width: 1440px;
     margin-top: 62px;
 }
 
 .form-video-image {
-    background-image: url("../images/home-page/form-video-image.png");
+    background-image: url("../../images/home-page/form-video-image.png");
     height: 227px;
     width: 615px;
     transform: translate(0, 420px)

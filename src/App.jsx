@@ -1,29 +1,24 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
-import MainPhoto from "./home-page/MainPhoto";
-import Degree from "./home-page/Degree";
-import WaveStats from "./home-page/WaveStats";
-import News from "./home-page/News";
-import DualEducation from "./home-page/DualEducatian";
-import Video from "./home-page/Video";
-import CloseEvents from "./home-page/CloseEvents";
-import FAQHomePage from "./home-page/FAQHomePage";
 import Footer from "./components/Footer";
+import Authorization from "./pages/Authorization";
+import Home from "./pages/Home";
+import ProgranExchange from "./pages/ProgranExchange";
 
 function App() {
   return (
-    <div className="container">
-      <Header />
-      <MainPhoto />
-      <Degree />
-      <WaveStats />
-      <News />
-      <DualEducation />
-      <Video />
-      <CloseEvents />
-      <FAQHomePage />
-      <Footer />
-    </div>
+    <Router>
+      <div className="container">
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Authorization" element={<Authorization />} />
+          <Route path="/progranExchange" element={<ProgranExchange />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

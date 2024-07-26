@@ -1,10 +1,10 @@
 import React from "react";
 
-function ShowMoreButton({ showMore }) {
+function ShowMoreButton({ onClick, showMore }) {
   return (
-    <div>
-      <button className="show-more">{showMore}</button>
-    </div>
+    <button onClick={onClick} className="show-more">
+      {showMore}
+    </button>
   );
 }
 export default ShowMoreButton;

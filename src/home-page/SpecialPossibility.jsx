@@ -2,14 +2,18 @@ import React from "react";
 import Topic from "../components/TopicSection";
 import EventNav from "../components/EventNav";
 import ShowMoreButton from "../components/ShowMoreButton";
-function DualEducation() {
+import { useNavigate } from "react-router-dom";
+
+function SpecialPossibility() {
+  const navigate = useNavigate();
+
   return (
     <section className="special-possibilities">
       <div className="topic-dual-education">
         <Topic title={"Можливості, які ви матимете"} />
       </div>
       <nav className="topic-nav">
-        <EventNav title={"Дуальна освіта"} />
+        <EventNav title={"Програма обміну"} />
       </nav>
       <div className="special-possibilities-photo">
         <p className="dual-education-text">
@@ -21,11 +25,14 @@ function DualEducation() {
           справжній сфері діяльності.
         </p>
         <div className="dual-education-button">
-          <ShowMoreButton showMore={"Показати більше"} />
+          <ShowMoreButton
+            onClick={() => navigate("/ProgranExchange")}
+            showMore={"Показати більше"}
+          />
         </div>
       </div>
     </section>
   );
 }
 
-export default DualEducation;
+export default SpecialPossibility;

@@ -7,7 +7,7 @@
 .footer-image {
     width: 1440px;
     height: 734px;
-    background-image: url("../images/home-page/footer.png");
+    background-image: url("../../images/home-page/footer.png");
     display: flex;
     flex-direction: column;
 }

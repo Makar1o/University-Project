@@ -1,6 +1,4 @@
 import React from "react";
-import "../styles/topic.css"; // Де у вас збережені стилі
-
 function Topic({ title }) {
   return (
     <div>

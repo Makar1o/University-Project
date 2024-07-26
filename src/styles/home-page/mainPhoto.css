@@ -5,7 +5,7 @@
 }
 
 .home-page-photo-1 {
-    background-image: url('../images/home-page/home-page-photo-1.png');
+    background-image: url('../../images/home-page/home-page-photo-1.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -20,7 +20,7 @@
 h2 {
     color: var(--color-brand-dark);
     font-size: 40px;
-    font-weight: 750;
+    font-weight: 700;
 }
 
 .day-student {
