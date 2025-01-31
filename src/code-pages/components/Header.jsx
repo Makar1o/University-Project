@@ -1,8 +1,8 @@
 import React from "react";
-import { ReactComponent as SearchIcon } from "../images/svgIcons/search.svg";
-import { ReactComponent as MoonDarkTheme } from "../images/svgIcons/moon-dark-theme.svg";
-import { ReactComponent as PersonalCabinet } from "../images/svgIcons/personal-cabinet.svg";
-import { ReactComponent as Tools } from "../images/svgIcons/tools.svg";
+import { ReactComponent as SearchIcon } from "../../images/svgIcons/search.svg";
+import { ReactComponent as MoonDarkTheme } from "../../images/svgIcons/moon-dark-theme.svg";
+import { ReactComponent as PersonalCabinet } from "../../images/svgIcons/personal-cabinet.svg";
+import { ReactComponent as Tools } from "../../images/svgIcons/tools.svg";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 

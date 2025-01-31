@@ -9,7 +9,7 @@ import "./styles/home-page/degree.css";
 import "./styles/home-page/waveStats.css";
 import "./styles/home-page/news.css";
 import "./styles/components/showMoreButton.css";
-import "./styles/program-exchange/programExchange.css";
+import "./styles/home-page/program-exchange.css";
 import "./styles/components/eventNav.css";
 import "./styles/home-page/video.css";
 import "./styles/home-page/close-events.css";
@@ -21,6 +21,14 @@ import "./styles/autorization/autorization-with.css";
 import "./styles/autorization/autorization-input.css";
 import "./styles/components/form-image-s.css";
 import "./styles/components/topic.css";
+import "./styles/program-exchange/exchange-topic.css";
+import "./styles/program-exchange/advantage-exchange.css";
+import "./styles/components/advantage-form.css";
+import "./styles/program-exchange/instruction.css";
+import "./styles/components/orange-circle.css";
+
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

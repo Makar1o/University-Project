@@ -1,0 +1,35 @@
+.main-photo-containar {
+    width: 1440px;
+}
+
+.topic-program-exchange {
+    position: relative;
+    font-size: 64px;
+    font-weight: 700;
+    color: var(--color-brand-secondary);
+    bottom: 152px;
+    left: 125px;
+}
+
+.exchange-meaning-topic {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--color-brand-dark);
+    margin-bottom: 20px;
+}
+
+.exchange-meaning-content {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 170%;
+    color: var(--color-brand-dark);
+    text-indent: 32px;
+    width: 1144px;
+}
+
+.exchange-meaning-container {
+    width: 1224px;
+    position: relative;
+    left: 108px;
+
+}

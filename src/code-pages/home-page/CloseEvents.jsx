@@ -1,9 +1,9 @@
 import React from "react";
 import Topic from "../components/TopicSection";
 import CardCloseEvent from "../components/CardCloseEvent";
-import eventImage from "../images/home-page/event-image.jpg";
-import eventImage2 from "../images/home-page/event-image-2.jpg";
-import { ReactComponent as HomePageArrow } from "../images/svgIcons/home-page-arrow.svg";
+import eventImage from "../../images/home-page/event-image.jpg";
+import eventImage2 from "../../images/home-page/event-image-2.jpg";
+import { ReactComponent as HomePageArrow } from "../../images/svgIcons/home-page-arrow.svg";
 
 function CloseEvents() {
   return (

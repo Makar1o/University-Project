@@ -1,12 +1,12 @@
 import React from "react";
-import MainPhoto from "../home-page/MainPhoto";
-import Degree from "../home-page/Degree";
-import WaveStats from "../home-page/WaveStats";
-import News from "../home-page/News";
-import Video from "../home-page/Video";
-import CloseEvents from "../home-page/CloseEvents";
-import FAQHomePage from "../home-page/FAQHomePage";
-import SpecialPossibility from "../home-page/SpecialPossibility";
+import MainPhoto from "../code-pages/home-page/MainPhoto";
+import Degree from "../code-pages/home-page/Degree";
+import WaveStats from "../code-pages/home-page/WaveStats";
+import News from "../code-pages/home-page/News";
+import Video from "../code-pages/home-page/Video";
+import CloseEvents from "../code-pages/home-page/CloseEvents";
+import FAQHomePage from "../code-pages/home-page/FAQHomePage";
+import SpecialPossibility from "../code-pages/home-page/SpecialPossibility";
 
 function Home() {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import { ReactComponent as Eye } from "../../images/svgIcons/eye-password.svg";
-import ShowMoreButton from "../../components/ShowMoreButton";
+import ShowMoreButton from "../components/ShowMoreButton";
 
 function AuthorizationInput() {
   return (

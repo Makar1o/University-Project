@@ -1,5 +1,5 @@
 import React from "react";
-import { ReactComponent as HomePageArrow } from "../images/svgIcons/home-page-arrow.svg";
+import { ReactComponent as HomePageArrow } from "../../images/svgIcons/home-page-arrow.svg";
 function EventNav({ title }) {
   return (
     <nav className="event-nav">

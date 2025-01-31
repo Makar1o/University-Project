@@ -1,5 +1,5 @@
 import React from "react";
-import { ReactComponent as Play } from "../images/svgIcons/video-button.svg";
+import { ReactComponent as Play } from "../../images/svgIcons/video-button.svg";
 function Video() {
   return (
     <section>

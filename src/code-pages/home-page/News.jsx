@@ -2,12 +2,12 @@ import React from "react";
 import Topic from "../components/TopicSection";
 import ShowMoreButton from "../components/ShowMoreButton";
 import CardNews from "../components/CardNews";
-import NewsImage1 from "../images/home-page/photo-of-news-1.png";
-import NewsImage2 from "../images/home-page/photo-of-news-2.png";
-import NewsImage3 from "../images/home-page/photo-of-news-3.png";
-import NewsImage4 from "../images/home-page/photo-of-news-4.png";
-import NewsImage5 from "../images/home-page/photo-of-news-5.png";
-import NewsImage6 from "../images/home-page/photo-of-news-6.png";
+import NewsImage1 from "../../images/home-page/photo-of-news-1.png";
+import NewsImage2 from "../../images/home-page/photo-of-news-2.png";
+import NewsImage3 from "../../images/home-page/photo-of-news-3.png";
+import NewsImage4 from "../../images/home-page/photo-of-news-4.png";
+import NewsImage5 from "../../images/home-page/photo-of-news-5.png";
+import NewsImage6 from "../../images/home-page/photo-of-news-6.png";
 
 function News() {
   return (
